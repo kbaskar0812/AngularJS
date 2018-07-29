@@ -19,11 +19,13 @@ import { FirstPageComponent } from './first-page/first-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatInputModule} from '@angular/material';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { BvoipSorTableComponent } from './bvoip-sor-table/bvoip-sor-table.component';
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    BvoipSorTableComponent
   ],
   imports: [
     BrowserModule,
