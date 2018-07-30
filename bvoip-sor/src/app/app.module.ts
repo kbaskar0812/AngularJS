@@ -17,15 +17,17 @@ import { MatTabsModule } from '@angular/material';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {MatInputModule} from '@angular/material';
+import {MatInputModule, MatTableModule, MatPaginatorModule, MatSortModule} from '@angular/material';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { BvoipSorTableComponent } from './bvoip-sor-table/bvoip-sor-table.component';
+import { =Component } from './=/=.component';
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
     FirstPageComponent,
-    BvoipSorTableComponent
+    BvoipSorTableComponent,
+    =Component
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,10 @@ import { BvoipSorTableComponent } from './bvoip-sor-table/bvoip-sor-table.compon
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

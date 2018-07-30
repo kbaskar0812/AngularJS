@@ -21,9 +21,9 @@ RouterModule.forRoot(appRoutes)
 
 
 --Other Angualar material components--
-ng generate @angular/material:material-dashboard --name=my-dashboard
+ng generate @angular/material:materialDashboard --name <my-dashboard>
 
-ng generate @angular/material:material-table --name=my-table
+ng generate @angular/material:materialTable --name <my-table>
 
 
 
