@@ -21,13 +21,14 @@ RouterModule.forRoot(appRoutes)
 
 
 --Other Angualar material components--
-ng generate @angular/material:materialDashboard --name <my-dashboard>
+ng generate @angular/material:material-dashboard --name <my-dashboard>
 
-ng generate @angular/material:materialTable --name <my-table>
+ng generate @angular/material:material-table --name <my-table>
 
 
 
 Note:
+
 ng add
 Another new CLI command ng add <package> makes adding new capabilities to your project easy. 
 ng add will use your package manager to download new dependencies and invoke an installation script 

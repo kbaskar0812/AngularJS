@@ -21,13 +21,15 @@ import {MatInputModule, MatTableModule, MatPaginatorModule, MatSortModule} from 
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { BvoipSorTableComponent } from './bvoip-sor-table/bvoip-sor-table.component';
 import { =Component } from './=/=.component';
+import { BvoipNewTableComponent } from './bvoip-new-table/bvoip-new-table.component';
+import { MyNav2Component } from './my-nav2/my-nav2.component';
 @NgModule({
   declarations: [
     AppComponent,
     MyNavComponent,
     FirstPageComponent,
     BvoipSorTableComponent,
-    =Component
+    =Component, BvoipNewTableComponent, MyNav2Component
   ],
   imports: [
     BrowserModule,
